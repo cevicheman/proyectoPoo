@@ -1,3 +1,44 @@
 <resources>
-    <string name="app_name">ProyectoPoo</string>
+    <string name="app_name">MediFit</string>
+    <string name="welcome_message">Bienvenido a MediFit</string>
+    <string name="version">Version 1.0.0</string>
+
+    <!-- MainActivity -->
+    <string name="title_perfiles">Perfiles disponibles</string>
+    <string name="button_crear_perfil">Crear nuevo perfil</string>
+    <string name="toast_perfil_creado">Perfil creado</string>
+    <string name="toast_perfil_seleccionado">Perfil seleccionado: %1$s</string>
+    <string name="crear_perfil">Crear Perfil</string>
+    <string name="nombre">Nombre del Perfil</string>
+    <string name="guardar">Guardar</string>
+    <string name="nombre_vacio">Por favor, ingresa un nombre.</string>
+
+    <!-- Medicamentos -->
+    <string name="menu_medicamentos">Administrar medicamentos</string>
+    <string name="medicamentos_lista">Lista de Medicamentos activos</string>
+    <string name="medicamento_añadir">Añadir Medicamento</string>
+    <string name="medicamento_eliminar">Eliminar Medicamento</string>
+    <string name="medicamento_registrar_toma">Registrar Toma</string>
+    <string name="medicamento_recarga">Recarga de Medicina</string>
+    <string name="medicamento_recordatorio">Recordatorio de Recarga</string>
+
+    <!-- Actividad Física -->
+    <string name="menu_actividad_fisica">Administrar Actividad Física</string>
+    <string name="actividad_lista">Listado de Actividades</string>
+    <string name="actividad_registrar">Registrar Actividad Física</string>
+
+    <!-- Médicos -->
+    <string name="menu_medicos">Administrar médicos</string>
+    <string name="medicos_lista">Listado de Médicos</string>
+    <string name="medicos_añadir">Añadir Médico</string>
+
+    <!-- Citas Médicas -->
+    <string name="menu_citas">Administrar citas médicas</string>
+    <string name="citas_lista">Listado de Citas</string>
+    <string name="citas_añadir">Añadir Cita</string>
+
+    <!-- Notas -->
+    <string name="menu_notas">Administrar Notas de Salud</string>
+    <string name="notas_lista">Listado de Notas</string>
+    <string name="notas_añadir">Añadir Nota</string>
 </resources>
