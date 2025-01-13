@@ -8,14 +8,30 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/tvMedicina"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="Medicinas"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.452"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.103" />
+
+    <Button
+        android:id="@+id/btAñadirMedicina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Añadir medicina"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="492dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcListaMedicinas"
+        android:layout_width="323dp"
+        android:layout_height="302dp"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="137dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
